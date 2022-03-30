@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(226, 226, 226);
+    background-image: url("https://images.unsplash.com/photo-1620641648331-d48c0439346a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80");
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(46, 196, 182);
+    font-size: 48px;
+    margin-top: 2px;
+}
+
+h2 {
+    color: rgb(255, 136, 17);
+    font-size: 30px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    color:rgb(203, 243, 240);
+    background-color: rgb(46, 196, 182);
+    padding: 30px 40px;
+    border: none;
+    border-radius: 5%;
+}
+
+button:hover {
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 5px #999;
+}
+
+#computerPlay {
+    font-size: 30px;
+    color: rgba(255, 136, 17, 0.8);
+    margin-bottom: 0;
+}
+
+#results {
+    font-size: 20px;
+    color: rgba(255, 136, 17, 0.8);
+    font-weight: 800;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+<<<<<<< HEAD
+    gap: 30px;
+=======
+    gap: 40px;
+>>>>>>> main
+    font-size: 25px;
+    border: transparent;
+    color: #fff;
+    text-shadow:
+    0 0 7px rgb(155, 27, 144),
+    0 0 82px rgb(163, 57, 154),
+    0 0 151px rgb(163, 57, 154);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
